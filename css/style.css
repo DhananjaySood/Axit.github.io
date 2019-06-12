@@ -1,0 +1,280 @@
+
+#page-body{
+	margin:0px;
+	padding: 0px;
+}
+
+.logo-text{
+	display: inline-block;
+	color: white;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+nav.navbar {
+    background-color: #000000;
+    margin-bottom: 0px;
+
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color:orange;
+    border-radius:5px;
+}
+
+nav.navbar a{
+	color: #e6e6e6;
+}
+
+.lg-banner{
+	background-image: url("../images/banner.jpg");
+	height: 500px;
+    background-size: cover;
+   	background-attachment: fixed;
+}
+
+.lg-banner-text-heading{
+	color:white;
+	font-family: sans-serif;
+	font-size:72px;
+	text-align: left; 
+}
+
+.lg-banner-text{
+    color: white;
+    font-size: 32px;
+}
+
+.lg-banner-para{
+	color:white;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+
+.horizontal-line{
+	color: white;
+	width: 11%;
+	margin-left: 0px;
+	border: 1px solid white;
+}
+
+.horizontal-line-2{
+    color: orange;
+    width: 10%;
+    border:2px solid orange;
+}
+
+.download-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 8px 22px;
+}
+
+.download-btn a  {
+    color: white;
+}
+
+form.sign-up-form{
+	background-color: #fff;
+	width: 65%;
+	margin: 45px auto;
+	border-radius:8px;
+}
+
+input.form-control {
+    border: none;
+    padding: 25px 10px;
+    border-bottom: 1px solid #ababab;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sign-up-btn {
+    color: #fff;
+    background-color: #FF9B51;
+    border-color: #ccc;
+    width: 100%;
+    margin-top: 74px;
+    padding: 15px;
+}
+
+.lg-banner-footer{
+	border:none;
+	border-bottom: 1px solid #888;
+	padding: 5px;
+}
+
+.lg-banner-footer-text{
+	color: #777;
+}
+
+.lg-banner-icons {
+    margin: 25px;
+}
+
+.lg-banner-icons .fa{
+   padding: 0 20px;
+   color: #ccc;
+}
+
+div#sec-1 {
+    margin-top: 70px;
+}
+
+.sec-1-tabs:first-child{
+	background-color:#FF8B38;
+	border-top-right-radius: 4px;
+	border-top-left-radius:4px ;
+}
+.sec-1-tabs:last-child{
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+
+.sec-1-tabs {
+    height: 75px;
+    width: 65%;
+    background-color:#333;
+    padding-top:20px;
+    margin-bottom: 1px;
+
+}
+
+.sec-1-tabs a {
+  color: #fff;
+
+}
+
+.download-btn-2 {
+    background-color: #FF8B38;
+    color:#fff;
+    padding: 12px 32px;
+    margin-top:50px;
+}
+
+div#sec2 {
+    margin-top: 70px;
+}
+
+.sec-2-pic {
+    width: 400px;
+    margin: 50px 0 0 0;
+    border-radius: 5px;
+}
+
+.sub-list-icon {
+    float: left;
+    margin-right: 25px;
+    margin-left: -40px;
+}
+
+p.sub-list-para {
+    overflow: hidden;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+
+ .sub-list-icon .fa-cloud-upload {
+	color:orange;
+	border: 2px solid #FF8B38;
+	border-radius: 50%;
+	margin-top: 15px;
+	padding:7px;
+
+}
+
+div#sec-3{
+	margin-top: 70px;
+}
+
+div#sec-4{
+    margin-top: 70px;
+}
+
+.sec-4-col{
+    margin-top: 40px;
+}
+
+.sec-4-col .fa {
+    color: orange;
+    border: 2px solid #FF8B38;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+div#sec-5{
+    margin-top: 70px;
+}
+
+.sec-5-col {
+    background: #333333;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+.feature-list{
+  list-style-type: none;
+}
+
+.feature-list li{
+    line-height:32px; 
+    color: #444;
+}
+
+p.popular-option {
+    background: #FF8B38;
+    font-size: 20px;
+}
+
+div#sec-5 > .row:nth-child(2) > div:nth-child(1) > div,
+div#sec-5 > .row:nth-child(2) > div:nth-child(3) > div {
+  border-bottom: 5px solid #FF8B38;
+}
+
+div#sec-6 {
+    margin-top: 70px;
+}
+
+.sec-6-col {
+    margin-top: 70px;
+}
+
+div#sec-7{
+    margin-top: 100px;
+    background-image: url("../images/sec-7-img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    color: #fff;
+}
+
+div#sec-7 .download-btn{
+    margin-top:50px;
+}
+
+div#page-footer{
+   background-color: #000;
+   height: 75px;
+   padding-top: 7px;
+   margin-top: 25px;
+}
+
+.page-footer-icons .fa{
+    padding-right: 15px;
+}
+
+.page-footer-icons a {
+    color: #fff;
+}
+
+
+
